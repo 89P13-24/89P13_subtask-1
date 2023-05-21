@@ -1,0 +1,13 @@
+name: Ishan
+on:
+ issues:
+   types:
+     - opened
+   jobs:
+     Subtask-1:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Gigahead
+        run: echo "hello, guys"
+     
+   
